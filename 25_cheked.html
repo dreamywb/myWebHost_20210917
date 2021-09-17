@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=checkbox]:checked+div{
+            height:0;
+        }
+        div{
+            overflow: hidden; /* 650x300안에 안들어가는 글은 숨기기 */
+            width: 650px;
+            height: 300px;
+            transition-duration: 1s; /* 애니메이션 효과 */
+            
+            -ms-transition-duration:1s;
+            -webkit-transition-duration:1s;
+            -moz-transition-duration:1s;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox">
+    <div>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis nesciunt beatae delectus, velit quasi obcaecati cumque ipsam suscipit quas, quia aliquam repellendus voluptate culpa. Consectetur optio assumenda veniam at possimus! Libero asperiores mollitia eaque aliquam assumenda sed aliquid quis unde harum id! Asperiores corrupti ipsam repellendus quam exercitationem dolor! Iure itaque repellat non deserunt asperiores aliquid culpa aspernatur, adipisci totam nostrum eligendi temporibus ab, recusandae praesentium et necessitatibus? Sunt inventore dolorum placeat deserunt architecto laborum soluta eos facere alias, mollitia nemo eum dignissimos aspernatur id voluptatum! Labore ipsum illo alias itaque quasi nostrum ducimus deleniti similique maxime sint optio non ut est accusantium fuga cum cupiditate esse, rerum nobis velit quibusdam inventore blanditiis excepturi! Nemo quod voluptates harum eum sint. Velit saepe suscipit odit in repellat, necessitatibus modi eos totam voluptas tenetur? Corrupti recusandae aut et blanditiis, tempora repellendus iusto, distinctio officiis, ea est ad sint ab natus. Architecto explicabo consequatur consequuntur odio, quibusdam ducimus aut impedit, deleniti totam numquam tempore animi esse praesentium hic ipsam. Delectus quidem aliquid autem cupiditate soluta ea sequi molestias vel recusandae nesciunt, dolorum tempora perferendis explicabo voluptatum nostrum architecto sed. Reprehenderit ab harum pariatur labore recusandae officiis omnis ea soluta, nesciunt ratione eveniet non.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* h1태그 바로옆에 있는 h2태그 한개 선택 */
+        h1+h2{color: red;}
+        /* h1태그 옆에 있는 h2태그들을 선택 */
+        h1~h2{background-color: springgreen;}
+
+        /* background : image, color 들어감 */
+        /* background-color : color만 들어감 */
+
+        body{
+            background: url(googlelogo_color_272x92dp.png);
+        }
+    </style>
+</head>
+<body>
+    <h1>Header-1</h1>
+    <h2>Header-2</h2>
+    <h2>Header-2</h2>
+    <h2>Header-2</h2>
+    <h2>Header-2</h2>
+</body>
+</html>

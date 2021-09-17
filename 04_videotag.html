@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HTML5와 XHTML 표기법 차이, 둘은 같다 -->
+    <video src="Bike - 72566.mp4" controls></video>
+    <video src="Bike - 72566.mp4" controls="controls"></video>
+
+    <h1>자동재생하고 싶다면</h1>
+    <p>소리를 음소거해야지만 자동재생 가능</p>
+    <video src="Bike - 72566.mp4" controls autoplay muted></video>
+
+    <!-- 해당동영상의 쎔네일을 미리넣고, 해당 영상이 재생안될경우 대비-->
+    <video width="50%" height="50%" controls poster="googlelogo_color_272x92dp.png">
+        <!-- 해당동영상 mp4 확장자가 재상안되면 webm 확장자 동영상이 재생되도록 하기 -->
+        <source src="Bike - 72566.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
